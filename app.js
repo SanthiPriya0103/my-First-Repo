@@ -4,7 +4,7 @@ const port = 3000;
 
 // Default route
 app.get('/', (req, res) => {
-  res.send('<h1>Hello, World! 🚀</h1><p>This is my first Node.js app!</p>');
+  res.send('<h1>Hello from My Node.js App running on EC2!</h1>');
 });
 
 // Start the server
